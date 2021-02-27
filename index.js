@@ -21,17 +21,17 @@ inquirer
     {
         type: 'input',
         message: 'What is your favorite food?',
-        name: 'confirm',
+        name: 'Food',
       },
       {
         type: 'input',
         message: 'What is your LinkedIn profile?',
-        name: 'confirm',
+        name: 'LinkedIn',
       },
       {
         type: 'input',
         message: 'What is your GitHub profile?',
-        name: 'confirm',
+        name: 'Git Profile',
       },
   ])
   .then((response) =>
